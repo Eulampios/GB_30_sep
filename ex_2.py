@@ -23,4 +23,4 @@ if __name__ == '__main__':
     print(currency_rates('EUR'))
     print(currency_rates('eur'))
 
-    print('\nhi, my friends')
+    print('\nhi, my friends ☻')
