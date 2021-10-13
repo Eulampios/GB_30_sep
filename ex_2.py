@@ -17,8 +17,8 @@ def currency_rates(val):
     day, month, year = map(int, day_raw)
     return f"{Decimal(rub.replace(',', '.'))}, {datetime(day=day, month=month, year=year)}"
 
-if __name__ == '__main__':
 
+if __name__ == '__main__':
     print(currency_rates('USD'))
     print(currency_rates('EUR'))
     print(currency_rates('eur'))
