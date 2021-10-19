@@ -1,0 +1,45 @@
+C:\Users\Andrew\PycharmProjects\GB_30_sep>pip list  # узнаем список установленных пакетов. Можно использовать pip freeze, либо pip show pillow
+Package                           Version
+--------------------------------- -------
+backports.entry-points-selectable 1.1.0
+distlib                           0.3.2
+filelock                          3.0.12
+pip                               21.2.4
+platformdirs                      2.2.0
+setuptools                        56.0.0
+six                               1.16.0
+virtualenv                        20.7.2
+WARNING: You are using pip version 21.2.4; however, version 21.3 is available.
+You should consider upgrading via the 'c:\python3\python.exe -m pip install --upgrade pip' command.
+
+C:\Users\Andrew\PycharmProjects\GB_30_sep>pip install pillow  # Устанавливаем модуль pillow в глобальное окружение
+Collecting pillow
+  Using cached Pillow-8.3.2-cp39-cp39-win_amd64.whl (3.2 MB)
+Installing collected packages: pillow
+Successfully installed pillow-8.3.2
+WARNING: You are using pip version 21.2.4; however, version 21.3 is available.
+You should consider upgrading via the 'c:\python3\python.exe -m pip install --upgrade pip' command.
+
+C:\Users\Andrew\PycharmProjects\GB_30_sep>cd C:\Users\Andrew\desktop  # Переходим на рабочий стол
+
+C:\Users\Andrew\Desktop>md new_virt  # Создаем директорию "my_virt" на рабочем столе
+
+C:\Users\Andrew\Desktop>cd .\new_virt  # Переходим в созданную диеректорию new_virt
+
+C:\Users\Andrew\Desktop\new_virt>python -m venv my_virt  # Создаем виртуальное окружение "my_virt"
+
+C:\Users\Andrew\Desktop\new_virt>cd .\my_virt\scripts
+
+C:\Users\Andrew\Desktop\new_virt\my_virt\Scripts>activate  # Активируем виртуальное окружение
+
+(my_virt) C:\Users\Andrew\Desktop\new_virt\my_virt\Scripts>cd C:\Users\Andrew\Desktop\new_virt  # Переходим в директорию new_virt
+
+(my_virt) C:\Users\Andrew\Desktop\new_virt>pip install pillow == 7.1.1  # Устанавливаем в виртуальное окружение "my_virt" пакет Pillow версии 7.1.1
+
+WARNING: You are using pip version 21.1.3; however, version 21.3 is available.
+You should consider upgrading via the 'c:\users\andrew\desktop\new_virt\my_virt\scripts\python.exe -m pip install --upgrade pip' command.
+
+(my_virt) C:\Users\Andrew\Desktop\new_virt>cd C:\Users\Andrew\Desktop\new_virt\my_virt\Scripts
+
+(my_virt) C:\Users\Andrew\Desktop\new_virt\my_virt\Scripts>deactivate  # Деактивируем виртуальное окружение "my_virt"
+C:\Users\Andrew\Desktop\new_virt\my_virt\Scripts>
